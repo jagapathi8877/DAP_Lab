@@ -1,0 +1,13 @@
+import numpy as np
+arr = np.array([1, 5, 2, 8, 3, 5, 2])
+print("Less than 4:", arr[arr < 4])
+print("Greater than 4:", arr[arr > 4])
+print("Max value:", np.max(arr))
+print("Min value:", np.min(arr))
+print("Index of Max:", np.argmax(arr))
+print("Index of Min:", np.argmin(arr))
+print("Repr:", repr(arr))
+print("Unique values:", np.unique(arr))
+print("Bincount (frequency of each number):", np.bincount(arr))
+print("Count of 5:", np.count_nonzero(arr == 5))
+print("Count of 2:", np.count_nonzero(arr == 2))
